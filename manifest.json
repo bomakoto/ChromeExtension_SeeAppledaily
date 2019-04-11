@@ -1,0 +1,11 @@
+{
+	"name":"SeeAppledaily",
+	"version": "1.0",
+	"description": "You can see the articles of appledaily without logging as a member.",
+	"permissions":["tabs", "https://*.appledaily.com/*"],
+	"content_scripts":[{
+		"matches":["https://*.appledaily.com/*"],
+		"js":["main.js"]
+	}],
+	"manifest_version": 2
+}
