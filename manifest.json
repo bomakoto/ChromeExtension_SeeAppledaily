@@ -1,11 +1,13 @@
 {
-	"name":"SeeAppledaily",
-	"version": "1.0",
-	"description": "You can see the articles of appledaily without logging as a member.",
+	"name":"看蘋果日報",
+	"version": "4.0",
+	"description": "不必登入會員就可直接看蘋果日報",
 	"permissions":["tabs", "https://*.appledaily.com/*"],
 	"content_scripts":[{
 		"matches":["https://*.appledaily.com/*"],
-		"js":["main.js"]
+		"js":["main.js"],
+		"run_at":"document_start"
 	}],
+	"web_accessible_resources":["script.js"],
 	"manifest_version": 2
 }
