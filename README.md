@@ -1,11 +1,11 @@
-# ChromeExtension_SeeAppledaily
-You can see the articles of appledaily without logging as a member.
+# Chrome Extension - SeeAppledaily
 
-蘋果日報於2019年4月10號起, 需登入會員才能看新聞. 
-這支程式是Chrome的套件, 下載後就可免登入會員直接看新聞.
+電腦版Chrome插件，安裝後，就可免登入直接看蘋果日報。
+原本有上架到Chrome線上程式應用商店，但被下架，所以將程式放在這邊，請自行下載安裝喔。
 
-步驟:
-1. 先建立資料夾, 名稱隨意, 然後將manifest.json, main.js放在該資料夾內.
-2. 開啟chrome, 上方搜尋列輸入: chrome://extensions
-3. 點選"載入未封裝項目", 設定資料夾的路徑
-4. 按確定, 完成.
+安裝步驟:
+1. 下載ZIP檔案，解壓縮
+2. 開啟chrome, 上方搜尋列輸入 chrome://extensions
+3. 開啟「開發人員模式」
+4. 點選「載入未封裝項目」，設定剛剛解壓縮的資料夾的路徑
+
